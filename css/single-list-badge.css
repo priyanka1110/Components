@@ -1,0 +1,27 @@
+.single-line-list .badge{
+  background-color: darkred;
+  border-radius: 2px;
+  bottom: 50%;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  height: 22px;
+  margin-top: -12px;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  top: 50%;
+  padding: 2px 8px;
+  line-height: 22px;
+}
+
+.single-line-list .webix_list_item.webix_selected {
+  padding: 10px !important;
+}
+
+.single-line-list .list-item {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 75%;
+  white-space: nowrap; 
+}

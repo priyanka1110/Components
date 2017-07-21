@@ -2,85 +2,30 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="../../css/webix.css">
-<link rel="stylesheet" type="text/css" href="../../css/infratab.style.css">
+		<link rel="stylesheet" type="text/css" href="../../css/component.css">
 		<script src="../../js/webix.js" type="text/javascript" charset="utf-8"></script>
-		
 		<script type="text/javascript" src="../common/testdata.js"></script>
 		<title>List</title>
 	</head>
 	<style type="text/css">
-		#listA, #listB, #listC{
-			float:left; margin:20px;
-		}
-		.mark{
-			width:100px;
-			text-align: center;
-			font-weight:bold;
-			float:right;
-			background-color:#444;
-			color:white;
-			border-radius:3px;
-		}
-		.newtime{
-			background-color:#DDFFDD;
-		}
-		.oldtime{
-			background-color:#DDDDFF;
+		#listA {
+			float:left; 
+			width: 30%;
+			margin-left: 20px;
 		}
 	</style>
 	<body>
-		<div id="listA"></div>
-		<div id="listB"></div>
-		<div id="listC"></div>
-
+		<div id="listA">Single Line List</div>
 
 		<script type="text/javascript" charset="utf-8">
 			webix.ui({
 				container:"listA",
 				view:"list",
-				width:320,
-				height:600,
+				css: "infratab-list single-line-list",
 				template:"#rank#. #title#",
 				select:"multiselect",
 				data:big_film_set
 			});
-
-			webix.ui({
-				container:"listB",
-				view:"list",
-				width:320,
-				height:600,
-				template:"#rank#. #title# <div style='padding-left:18px'> Year:#year#, votes:#votes# </div>",
-				type:{
-					height:62
-				},
-				select:true,
-
-				data:big_film_set
-			});
-
-			webix.ui({
-				container:"listC",
-				view:"list",
-				width:320,
-				height:600,
-
-				scheme:{
-					$init:function(obj){
-						if (obj.year>=2000) obj.$css = "newtime";
-						if (obj.year<=1970) obj.$css = "oldtime";
-					}
-				},
-
-				template:"<div class='mark'>#votes# </div> #rank#. #title#",
-				type:{
-					height:62
-				},
-				select:true,
-
-				data:webix.copy(big_film_set)
-			});
-
 		</script>
 	</body>
 </html>
