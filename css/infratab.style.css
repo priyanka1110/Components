@@ -1,0 +1,10 @@
+.infratab-list {
+	width: auto !important;
+	height: auto !important; 
+}
+
+.infratab-list .webix_list_item {
+		width: auto !important;
+	height: auto !important; 
+
+	}

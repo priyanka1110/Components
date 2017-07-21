@@ -2,35 +2,25 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="../../css/webix.css">
-<link rel="stylesheet" type="text/css" href="../../css/infratab.style.css">
+		<link rel="stylesheet" type="text/css" href="../../css/infratab.style.css">
 		<script src="../../js/webix.js" type="text/javascript" charset="utf-8"></script>
 		
 		<script type="text/javascript" src="../common/testdata.js"></script>
 		<title>List</title>
+		<style type="text/css">
+			#listA, #listB, #listC {
+				width: 30%;
+				float: left;
+			}
+		</style>
 	</head>
-	<style type="text/css">
-		#listA, #listB, #listC{
-			float:left; margin:20px;
-		}
-		.mark{
-			width:100px;
-			text-align: center;
-			font-weight:bold;
-			float:right;
-			background-color:#444;
-			color:white;
-			border-radius:3px;
-		}
-		.newtime{
-			background-color:#DDFFDD;
-		}
-		.oldtime{
-			background-color:#DDDDFF;
-		}
-	</style>
+
 	<body>
+	<H1>LKJSLKJD</H1>
 		<div id="listA"></div>
+		<H1>LKJLKLK</H1>
 		<div id="listB"></div>
+		<h1>jjdk;j</h1>
 		<div id="listC"></div>
 
 
@@ -38,8 +28,7 @@
 			webix.ui({
 				container:"listA",
 				view:"list",
-				width:320,
-				height:600,
+				css:"infratab-list",
 				template:"#rank#. #title#",
 				select:"multiselect",
 				data:big_film_set
@@ -48,12 +37,7 @@
 			webix.ui({
 				container:"listB",
 				view:"list",
-				width:320,
-				height:600,
 				template:"#rank#. #title# <div style='padding-left:18px'> Year:#year#, votes:#votes# </div>",
-				type:{
-					height:62
-				},
 				select:true,
 
 				data:big_film_set
@@ -62,8 +46,7 @@
 			webix.ui({
 				container:"listC",
 				view:"list",
-				width:320,
-				height:600,
+				css:"infratab-list",
 
 				scheme:{
 					$init:function(obj){
@@ -73,9 +56,6 @@
 				},
 
 				template:"<div class='mark'>#votes# </div> #rank#. #title#",
-				type:{
-					height:62
-				},
 				select:true,
 
 				data:webix.copy(big_film_set)
