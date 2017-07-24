@@ -11,7 +11,7 @@
 
 .infratab-list .webix_list_item {
   height: auto !important;
-  padding: 10px;
+  padding: 8px 16px;
   position: relative;
   width: auto !important;
 }  
