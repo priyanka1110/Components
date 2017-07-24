@@ -20,19 +20,21 @@
 
 .multiline-two-button .button-wrapper {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: middle; 
 }
 
-.multiline-two-button .button {
-  background: transparent;
-  border: 1px solid black;
+.multiline-two-button .flat-button {
+  background-color: transparent;
+  border: 1px solid #000;
   border-radius: 2px;
+  color: #333;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
+  height: 32px;
   line-height: 32px;
+  margin-left: 5px;
   outline: none;
-  margin-left: 10px;
   padding: 0 16px;
   text-align: center;
   text-transform: uppercase;

@@ -6,7 +6,7 @@
   text-overflow: ellipsis;
   vertical-align: middle;
   white-space: nowrap;
-  width: 60%;
+  width: 55%;
 }
 
 .line-two-button .button-wrapper {
@@ -14,14 +14,17 @@
   vertical-align: middle;
 }
 
-.line-two-button .button {
-  background: transparent;
-  border: 1px solid black;
+.line-two-button .flat-button {
+  background-color: transparent;
+  border: 1px solid #000;
   border-radius: 2px;
+  color: #333;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
+  height: 32px;
   line-height: 32px;
+  margin-left: 5px;
   outline: none;
   padding: 0 16px;
   text-align: center;
