@@ -22,12 +22,6 @@
         container:"listC",
         view:"list",
         css: "infratab-list mutli-line-badge",
-        scheme:{
-          $init:function(obj){
-            if (obj.year>=2000) obj.$css = "newtime";
-            if (obj.year<=1970) obj.$css = "oldtime";
-          }
-        },
         template:"<p class='list-item'>#rank#. #title#</p> <div class='badge-box'><span class='badge'>#votes# </span> <span class='secondary-text'>#text#</span> </div>",
         select:true,
         data: [
