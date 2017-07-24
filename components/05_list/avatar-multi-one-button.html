@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../../css/webix.css">
+    <link rel="stylesheet" type="text/css" href="../../css/avatar-multi-one-button.css">
+    <link rel="stylesheet" type="text/css" href="../../css/component.css">
+    <script src="../../js/webix.js" type="text/javascript" charset="utf-8"></script>
+    <title>List</title>
+  </head>
+  <style type="text/css">
+    #listC{
+      float:left; 
+      width: 30%;
+      margin-left: 20px;
+    }
+  </style>
+  <body>
+    <div id="listC">Avatar with Multi line list with one Button</div>
+
+    <script type="text/javascript" charset="utf-8">
+      webix.ui({
+        container:"listC",
+        view:"list",
+        css: "infratab-list avatar-multi-one-button",
+        template:"<span class='avatar'></span><div class='list-item'><p class='primary-text'>#primary#</p><p class='secondary-text'>#secondary#</p></div><div class='button-wrapper'><button class='flat-button primary-line'>#option# </button></div>",
+        data: [
+         {primary:'John snow', secondary: 'Add members in data list to make it more readbale for the user?', option: 'Add'},
+         {primary:'John snow', secondary: 'Add data in current section, Add data in current section ?', option: 'Add'},
+         {primary:'John snow', secondary: 'Add filter to fetch data of choice ?', option: 'Add'},
+         {primary:'John snow', secondary: 'Add members to update list ?', option: 'Add'},
+         {primary:'John snow', secondary: 'Add icon in list to make it more readable, Add icon in list to make it more readable ?', option: 'Add'},
+         {primary:'John snow', secondary: 'Add section to previous section ?', option: 'Add'},
+         {primary:'John snow', secondary: 'Add members in data list ?', option: 'Add'}
+        ]
+      });
+
+    </script>
+  </body>
+</html>
