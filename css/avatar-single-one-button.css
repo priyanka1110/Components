@@ -16,22 +16,37 @@
   text-overflow: ellipsis;
   vertical-align: middle;
   white-space: nowrap;
-  width: 68%;
+  width: 60%;
 }
 
-.avatar-single-one-button .button {
+.avatar-single-one-button .button-wrapper {
   display: inline-block;
   vertical-align: middle;
-  background-color: #16A085;
-  border: 0;
+}
+
+.avatar-single-one-button .flat-button {
+  background-color: transparent;
+  border: 1px solid #000;
   border-radius: 2px;
-  color: #fff;
+  color: #333;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   height: 32px;
   line-height: 32px;
   outline: none;
   padding: 0 16px;
+  text-align: center;
   text-transform: uppercase;
 }
+
+.avatar-single-one-button .primary-line {
+  border-color: #1ABC9C;
+  color: #1ABC9C;
+}
+
+.avatar-single-one-button .primary-line:hover {
+  background-color: #1ABC9C;
+  color: #fff;
+}
+
