@@ -1,4 +1,8 @@
 /*---------common------*/
+* {
+  box-sizing: border-box;
+}
+
 p,
 h1,
 h2,

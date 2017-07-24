@@ -1,0 +1,37 @@
+.avatar-single-one-button .avatar {
+  background-image: url('../images/avatar.jpg');
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  height: 40px;
+  vertical-align: middle;
+  width: 40px;
+}
+
+.avatar-single-one-button .list-item {
+  display: inline-block;
+  margin: 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 68%;
+}
+
+.avatar-single-one-button .button {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #16A085;
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  height: 32px;
+  line-height: 32px;
+  outline: none;
+  padding: 0 16px;
+  text-transform: uppercase;
+}
