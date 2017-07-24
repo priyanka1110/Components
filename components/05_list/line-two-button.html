@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../../css/webix.css">
+    <link rel="stylesheet" type="text/css" href="../../css/line-two-button.css">
+    <link rel="stylesheet" type="text/css" href="../../css/component.css">
+    <script src="../../js/webix.js" type="text/javascript" charset="utf-8"></script>
+    <title>List</title>
+  </head>
+  <style type="text/css">
+    #listC{
+      float:left; 
+      width: 30%;
+      margin-left: 20px;
+    }
+  </style>
+  <body>
+    <div id="listC">Single line list with two Button</div>
+
+    <script type="text/javascript" charset="utf-8">
+      webix.ui({
+        container:"listC",
+        view:"list",
+        css: "infratab-list line-two-button",
+        template:"<p class='list-item'>#title#</p><div class='button-wrapper'><button class='button primary-line'>#option1# </button> <button class='button danger-line'>#option2# </button></div>",
+        data: [
+         {title: 'Update members in data list ?', option1: 'Add', option2: 'remove'},
+         {title: 'Accept invitation from the owner ?', option1: 'Accept', option2: 'reject'},
+         {title: 'There is one pending invitation?', option1: 'Resend', option2: 'cancel'},
+         {title: 'Do you want to make him owner ?', option1: 'make', option2: 'remove'},
+         {title: 'Do you want to give other person access ?', option1: 'yes', option2: 'no'},
+         {title: 'Should permission be granted ?', option1: 'Access', option2: 'deny'}
+        ]
+      });
+
+    </script>
+  </body>
+</html>

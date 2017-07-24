@@ -1,0 +1,41 @@
+.line-two-button .list-item {
+  display: inline-block;
+}
+
+.line-two-button .button-wrapper {
+  float: right;
+}
+
+.line-two-button .button {
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  outline: none;
+  padding: 5px 16px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.line-two-button .primary-line {
+  border-color: #1ABC9C;
+  color: #1ABC9C;
+}
+
+.line-two-button .danger-line {
+  border-color: #E74C3C;
+  color: #E74C3C;
+}
+
+.line-two-button .primary-line:hover {
+  background-color: #1ABC9C;
+  color: #fff;
+}
+
+.line-two-button .danger-line:hover {
+  background-color: #E74C3C;
+  color: #fff;
+}
