@@ -1,23 +1,26 @@
 .mutliline-one-button .list-item{
   display: inline-block;
-}
-
-.mutliline-one-button .title {
-  font-size: 16px;
+  vertical-align: middle;
+  width: 70%;
 }
 
 .mutliline-one-button .primary-text {
   font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
 }
 
 .mutliline-one-button .secondary-text {
-  display: inline-block;
-  float: left;
   font-size: 14px;
-  overflow:hidden;
+  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   width: 100%;
+}
+
+.mutliline-one-button .button-wrapper {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .mutliline-one-button .button {

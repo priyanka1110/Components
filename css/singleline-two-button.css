@@ -1,15 +1,17 @@
 .line-two-button .list-item {
   display: inline-block;
-  float: left;
   font-size: 16px;
+  line-height: 36px;
   overflow: hidden;
   text-overflow: ellipsis;
+  vertical-align: middle;
   white-space: nowrap;
   width: 60%;
 }
 
 .line-two-button .button-wrapper {
-  float: right;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .line-two-button .button {
