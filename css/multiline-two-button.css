@@ -1,0 +1,59 @@
+.multiline-two-button .list-item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+}
+
+.multiline-two-button .primary-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.multiline-two-button .secondary-text {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.multiline-two-button .button-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.multiline-two-button .button {
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 32px;
+  outline: none;
+  margin-left: 10px;
+  padding: 0 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.multiline-two-button .primary-line {
+  border-color: #1ABC9C;
+  color: #1ABC9C;
+}
+
+.multiline-two-button .danger-line {
+  border-color: #E74C3C;
+  color: #E74C3C;
+}
+
+.multiline-two-button .primary-line:hover {
+  background-color: #1ABC9C;
+  color: #fff;
+}
+
+.multiline-two-button .danger-line:hover {
+  background-color: #E74C3C;
+  color: #fff;
+}
