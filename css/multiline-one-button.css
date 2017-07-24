@@ -1,7 +1,23 @@
-.mutliline-one-button .list-item {
+.mutliline-one-button .list-item{
+  display: inline-block;
+}
+
+.mutliline-one-button .title {
+  font-size: 16px;
+}
+
+.mutliline-one-button .primary-text {
+  font-size: 16px;
+}
+
+.mutliline-one-button .secondary-text {
   display: inline-block;
   float: left;
-  width: 75%;
+  font-size: 14px;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
 }
 
 .mutliline-one-button .button {
@@ -11,11 +27,12 @@
   color: #fff;
   cursor: pointer;
   float: right;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 600;
-  line-height: 25px;
+  height: 32px;
+  line-height: 32px;
   outline: none;
-  padding: 4px 16px;
+  padding: 0 16px;
   text-transform: uppercase;
 }
 
@@ -29,6 +46,6 @@
   height: 20px;
   display: inline-block;
   position: relative;
-  top: 6px;
+  top: 7px;
   width: 20px;
 }

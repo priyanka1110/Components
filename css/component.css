@@ -1,12 +1,20 @@
+/*---------common------*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
 /*------list--------*/
 
 .infratab-list {
   height: auto !important;
   width: 100% !important;
-}
-
-.infratab-list p {
-  margin: 0;
 }
 
 .infratab-list .webix_list_item {

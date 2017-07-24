@@ -13,9 +13,9 @@
   display: block;
   font-size: 14px;
   font-weight: 600;
-  height: 22px;
-  padding: 2px 8px;
-  line-height: 22px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 8px;
   text-align: center;
 }
 

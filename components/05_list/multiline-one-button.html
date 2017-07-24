@@ -22,14 +22,11 @@
         container:"listC",
         view:"list",
         css: "infratab-list mutliline-one-button",
-        template:"<p class='list-item'>#title#</p><button class='button'><i class='button-icon'></i>#option# </button>",
+        template:"<div class='list-item'><h1 class='title'>#title#</h1><p class='primary-text'>#primary#</p></div><button class='button'><i class='button-icon'></i>#option# </button><p class='secondary-text'>#secondary#</p>",
         data: [
-         {title: 'Badges can notify you that there are new or unread messages or notifications. Add the new class to the badge to give it the background?', option: 'Add'},
-         {title: 'There are 3 main button types described in material design. The raised button is a standard button that signify actions and seek to give depth to a mostly flat page. ?', option: 'Add'},
-         {title: 'Breadcrumbs are a good way to display your current location. This is usually used when you have multiple layers of content.?', option: 'Add'},
-         {title: 'Cards are a convenient means of displaying content composed of different types of objects. They’re also well-suited for presenting similar objects whose size or supported actions can vary considerably, like photos with captions of variable length. ?', option: 'Add'},
-         {title: 'Add icon in list to make it more readable ?', option: 'Add'},
-         {title: 'Chips can be used to represent small blocks of information. They are most commonly used either for contacts or for tags. ?', option: 'Add'}
+         {title: 'Three line item', primary: 'Do you want to learn?', secondary: 'Add a dropdown list to any button. Make sure that the data-activates attribute matches the id in the ul tag.', option: 'Add'},
+         {title: 'Multi line item', primary: 'Do you want to create more?', secondary: 'Add a dropdown list to any button. Make sure that the data-activates attribute matches the id in the ul tag.', option: 'Addition'},
+         {title: 'Members list', primary: 'Create your member', secondary: 'Add a dropdown list to any button. Make sure that the data-activates attribute matches the id in the ul tag.', option: 'Addition'}
         ]
       });
 
