@@ -1,0 +1,29 @@
+.mutli-line-badge .badge{
+  background-color: darkred;
+  border-radius: 2px;
+  color: white;
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  height: 22px;
+  padding: 2px 8px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.mutli-line-badge .webix_list_item.webix_selected {
+  padding: 10px !important;
+}
+
+.mutli-line-badge .list-item {
+  display: inline-block;
+  width: 80%;
+}
+
+.mutli-line-badge .secondary-text {
+  font-size: 14px;
+}
+
+.mutli-line-badge .badge-box {
+  float: right;
+}
