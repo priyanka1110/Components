@@ -1,0 +1,75 @@
+.avatar-multi-two-button .avatar {
+  background-image: url('../images/avatar.jpg');
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  height: 40px;
+  vertical-align: middle;
+  width: 40px;
+}
+
+.avatar-multi-two-button .list-item {
+  display: inline-block;
+  margin: 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 55%;
+}
+
+.avatar-multi-two-button .primary-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.avatar-multi-two-button .secondary-text {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.avatar-multi-two-button .button-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.avatar-multi-two-button .flat-button {
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 2px;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 5px;
+  outline: none;
+  padding: 0 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.avatar-multi-two-button .primary-line {
+  border-color: #1ABC9C;
+  color: #1ABC9C;
+}
+
+.avatar-multi-two-button .primary-line:hover {
+  background-color: #1ABC9C;
+  color: #fff;
+}
+
+.avatar-multi-two-button .danger-line {
+  border-color: #E74C3C;
+  color: #E74C3C;
+}
+
+.avatar-multi-two-button .danger-line:hover {
+  background-color: #E74C3C;
+  color: #fff;
+}
