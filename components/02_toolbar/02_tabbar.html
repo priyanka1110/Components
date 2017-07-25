@@ -16,7 +16,7 @@
 	<body>
 		<div id="areaA"></div>
 		<div id="areaB">
-		    <ul>
+		    <ul class="con">
                 <input type="number" name="rank" /><br/>
                 <input type="text" name="title" value="" placeholder="Book title" /><br/>
                 <input type="date" name="year" value="" placeholder="Year" /><br/><br/>
@@ -47,9 +47,17 @@
                                     {
                                         id:"listView",
                                         view:"list",
-                                        template:"<div> heya tab </div>",
                                         select:true,
-                                        data:big_film_set
+                                        template:"<p class='list-item'>#title#</p>",
+                                        data: [
+                                         {title: 'Add members in data list to make it more readbale for the user?'},
+                                         {title: 'Add data in current section, Add data in current section ?'},
+                                         {title: 'Add filter to fetch data of choice ?'},
+                                         {title: 'Add members to update list ?'},
+                                         {title: 'Add icon in list to make it more readable, Add icon in list to make it more readable ?'},
+                                         {title: 'Add section to previous section ?'},
+                                         {title: 'Add members in data list ?'}
+                                        ]
                                     },
                                     {
                                         id:"formView",
@@ -61,7 +69,13 @@
                                             rank: webix.rules.isNumber
                                         }
                                     },
-                                    {id:"emptyView", template:" "}
+                                    {
+                                        id:"emptyView", 
+                                        template:" <p class='list-item'>#title#</p>",
+                                        data: [
+                                         {title: 'hey nothing here'}
+                                        ]
+                                    }
                                 ]
                             }
                         ]
