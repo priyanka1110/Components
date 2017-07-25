@@ -2,18 +2,13 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="../../css/webix.css">
-<link rel="stylesheet" type="text/css" href="../../css/infratab.style.css">
+        <link rel="stylesheet" type="text/css" href="../../css/component.css">
+         <link rel="stylesheet" type="text/css" href="../../css/tabbar.css">
 		<script src="../../js/webix.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="../common/testdata.js"></script>
 		<style>
 			#areaA, #areaB {
-				margin: 50px 10px;
-				width:320px;
-				height:400px;
-				float: left;
-			}
-			.webix_layout_space{
-				background-color: #fff;
+				width:100%;
 			}
         </style>
 		<title>Tabbar</title>
@@ -21,18 +16,19 @@
 	<body>
 		<div id="areaA"></div>
 		<div id="areaB">
-		    <div style="padding:10px">
+		    <ul>
                 <input type="number" name="rank" /><br/>
                 <input type="text" name="title" value="" placeholder="Book title" /><br/>
                 <input type="date" name="year" value="" placeholder="Year" /><br/><br/>
                 <input type="button" name="submit" value="Submit" onclick='$$("formView").save()'/>
-		    </div>
+		    </ul>
 		</div>
 		
 		<script type="text/javascript" charset="utf-8">
 			webix.ui({
 			    container: "areaA",
-			    type:"space", padding:8,
+			    type:"space",
+                css: "infratab-tabbar tab-bar",
 
                 rows:[
                     {
@@ -51,12 +47,8 @@
                                     {
                                         id:"listView",
                                         view:"list",
-                                        template:"#rank#. #title# <div style='padding-left:18px'> Year:#year#, votes:#votes# </div>",
-                                        type:{
-                                            height:60
-                                        },
+                                        template:"<div> heya tab </div>",
                                         select:true,
-
                                         data:big_film_set
                                     },
                                     {
