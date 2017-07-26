@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="../../../codebase/webix.css" type="text/css"   charset="utf-8">
-		<script src="../../../codebase/webix.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="../../../css/webix.css" type="text/css"   charset="utf-8">
+		<link rel="stylesheet" href="../../../css/infratab.style.css" type="text/css"   charset="utf-8">
+		<script src="../../../js/webix.js" type="text/javascript" charset="utf-8"></script>
 		<style>
 			#areaA{
 				margin: 30px;
+				width: 500px;
 			}
 		</style>
 		<title>Check Box ('checkbox')</title>
@@ -17,19 +19,15 @@
 
 		<script type="text/javascript" charset="utf-8">
 		var form1 = [
-			{ view:"checkbox", label:"First age",on:{
-				onChange: function(){
-					console.log(this.getValue())
-				}
-			} },
-			{ view:"checkbox", label:"Second age", value:1 },
-			{ view:"checkbox", labelRight:"Third age" },
+			{ view:"checkbox", css:"infratab-checkbox", label:"First age"},
+			{ view:"checkbox", css:"infratab-checkbox", label:"Second age", value:1 },
+			{ view:"checkbox", css:"infratab-checkbox", labelRight:"Third age" },
 			{ cols:[
-				{ view:"checkbox", label:"val A", labelWidth:40 },
-				{ view:"checkbox", label:"val B", labelWidth:40, value:1,
+				{ view:"checkbox", css:"infratab-checkbox", label:"val A"},
+				{ view:"checkbox", css:"infratab-checkbox", label:"val B", value:1,
 					uncheckValue:"off", checkValue:"on"
 				},
-				{ view:"checkbox", label:"val C", labelWidth:40 }
+				{ view:"checkbox", css:"infratab-checkbox", label:"val C" }
 			]},
 
 			{ view:"button", value:"Confirm", width:200, align:"center" }
@@ -39,7 +37,7 @@
 		webix.ui({
 			container:"areaA",
 			margin:30, cols:[
-				{ view:"form", scroll:false, width:300, elements: form1 }
+				{ view:"form", scroll:false, elements: form1 }
 			]
 		});
 		</script>

@@ -4,7 +4,47 @@
 }
 
 .infratab-list .webix_list_item {
-		width: auto !important;
+	width: auto !important;
 	height: auto !important; 
 
-	}
+}
+
+.infratab-checkbox, 
+.webix_el_checkbox {
+	width: auto !important;
+	height: auto !important; 
+}
+
+.infratab-checkbox .webix_el_box {
+	width: auto !important;
+	/*height: auto !important;*/
+}
+
+.infratab-checkbox label {
+	width: auto !important;
+}
+
+.webix_layout_line, .webix_layout_form {
+	width: auto !important;
+	height: auto !important;
+}
+
+.infratab-btn {
+	width: auto !important;
+	height: auto !important;
+	/*display: inline-block;*/
+}
+
+.infratab-btn .webix_el_box {
+	width: auto !important;
+	/*height: auto !important;*/
+}
+.infratab-btn button {
+	padding: 0 12px ;
+	width: auto ;
+}
+
+.infratab-btn input {
+	padding: 0 12px ;
+	width: auto !important;
+}
