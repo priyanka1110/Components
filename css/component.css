@@ -37,7 +37,18 @@ h6 {
   border: 0 !important;
 }
 
+/*----button-------*/
+.infratab-btn {
+  width: auto !important;
+  height: auto !important;
+}
 
-
+.infratab-btn .webix_el_box {
+  width: auto !important;
+  height: auto !important;
+ }
+ .infratab-btn button {
+   width: auto ;
+ }
 
 
