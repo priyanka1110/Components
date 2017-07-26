@@ -23,27 +23,7 @@
   vertical-align: middle;
 }
 
-.mutliline-one-button .button {
-  background-color: #16A085;
-  border: 0;
-  border-radius: 2px;
-  color: #fff;
-  cursor: pointer;
-  float: right;
-  font-size: 13px;
-  font-weight: 600;
-  height: 32px;
-  line-height: 32px;
-  outline: none;
-  padding: 0 16px;
-  text-transform: uppercase;
-}
-
-.mutliline-one-button .button:hover {
-  background-color: #317256;
-}
-
-.mutliline-one-button .button-icon {
+.mutliline-one-button .btn-icon {
   background-image: url('../images/plus.svg');
   background-repeat: no-repeat;
   height: 20px;

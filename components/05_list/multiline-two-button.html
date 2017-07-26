@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="../../css/webix.css">
     <link rel="stylesheet" type="text/css" href="../../css/multiline-two-button.css">
     <link rel="stylesheet" type="text/css" href="../../css/component.css">
+    <link rel="stylesheet" type="text/css" href="../../css/button-direct.css">
     <script src="../../js/webix.js" type="text/javascript" charset="utf-8"></script>
     <title>List</title>
   </head>
@@ -22,7 +23,7 @@
         container:"listC",
         view:"list",
         css: "infratab-list multiline-two-button",
-        template:"<div class='list-item'><p class='primary-text'>#primary#</p><p class='secondary-text'>#secondary#</p></div><div class=button-wrapper><button class='outline-button primary-line'>#option1# </button><button class='outline-button danger-line'>#option2# </button></div>",
+        template:"<div class='list-item'><p class='primary-text'>#primary#</p><p class='secondary-text'>#secondary#</p></div><div class=button-wrapper><button class='btn-outline btn-outline-primary'>#option1# </button><button class='btn-outline btn-outline-danger'>#option2# </button></div>",
         data: [
          {primary: 'John Snow', secondary: 'johnsnow@example.com', option1: 'Add', option2: 'remove'},
          {primary: 'Arya Stark', secondary: 'aryastark@example.com invitation is pending, what you want?', option1: 'Accept', option2: 'reject'},

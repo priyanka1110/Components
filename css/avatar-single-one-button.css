@@ -24,30 +24,3 @@
   vertical-align: middle;
 }
 
-.avatar-single-one-button .outline-button {
-  background-color: transparent;
-  border: 1px solid #000;
-  border-radius: 2px;
-  color: #333;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 600;
-  height: 32px;
-  line-height: 32px;
-  margin-left: 5px;
-  outline: none;
-  padding: 0 16px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.avatar-single-one-button .primary-line {
-  border-color: #1ABC9C;
-  color: #1ABC9C;
-}
-
-.avatar-single-one-button .primary-line:hover {
-  background-color: #1ABC9C;
-  color: #fff;
-}
-

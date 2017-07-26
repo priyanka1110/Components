@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="../../css/webix.css">
     <link rel="stylesheet" type="text/css" href="../../css/avatar-single-two-button.css">
     <link rel="stylesheet" type="text/css" href="../../css/component.css">
+    <link rel="stylesheet" type="text/css" href="../../css/button-direct.css">
     <script src="../../js/webix.js" type="text/javascript" charset="utf-8"></script>
     <title>List</title>
   </head>
@@ -22,7 +23,7 @@
         container:"listC",
         view:"list",
         css: "infratab-list avatar-single-two-button",
-        template:"<span class='avatar'></span><p class='list-item'>#title#</p><div class='button-wrapper'><button class='outline-button primary-line'>#option1# </button><button class='outline-button danger-line'>#option2# </button></div>",
+        template:"<span class='avatar'></span><p class='list-item'>#title#</p><div class='button-wrapper'><button class='btn-outline btn-outline-primary'>#option1# </button><button class='btn-outline btn-outline-danger'>#option2# </button></div>",
         data: [
          {title: 'Add members in data list to make it more readbale for the user?', option1: 'Add', option2: 'remove'},
          {title: 'Add data in current section, Add data in current section ?', option1: 'Accept', option2: 'reject'},
