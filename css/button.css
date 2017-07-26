@@ -3,6 +3,7 @@
   text-decoration: none;
   color: #fff;
   background-color: #26a69a;
+  border: 1px solid #26a69a;
   border: 0;
   text-align: center;
   letter-spacing: .5px;
@@ -20,6 +21,7 @@
 
 .btn button:hover {
   background-color: #2bbbad;
+  border-color: #2bbbad;
   -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
@@ -41,16 +43,33 @@
 }
 
 /*----btn primary-------*/
-.btn-primary button{
-  background-color: #5CB85C;
+.btn-primary button {
+  background-color: #5CB85C !important;
+  color: #fff !important;
+  border: 1px solid #5cb85c !important;
+}
+
+.btn-outline-primary button {
+  border: 1px solid #5cb85c !important;
+  color: #5cb85c !important;
+}
+
+.btn-outline-primary button:hover {
+  background-color: #1ABC9C;
   color: #fff;
 }
 
 /*-----btn danger-------*/
-.btn-danger button {
-  background-color: #D9534F;
-  color: #fff;
-  }
+.btn-danger button{
+  background-color: #D9534F !important;
+  color: #fff !important;
+  border: 1px solid #d9534f !important;
+}
+
+.btn-outline-danger button {
+  border: 1px solid #d9534f !important;
+  color: ##d9534f !important;
+}
 
 /*-----outline button -------*/ 
 .btn-outline button {
