@@ -6,11 +6,10 @@
   text-overflow: ellipsis;
   vertical-align: middle;
   white-space: nowrap;
-  width: 55%;
+  width: 80%;
 }
 
 .line-two-button .button-wrapper {
-  display: inline-block;
-  vertical-align: middle;
+  float: right;
 }
 

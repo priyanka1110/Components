@@ -17,6 +17,7 @@
   height: 36px;
   line-height: 36px;
   padding: 0 16px;
+  margin: 0 5px;
 }
 
 .btn button:hover {
@@ -55,7 +56,7 @@
 }
 
 .btn-outline-primary button:hover {
-  background-color: #1ABC9C;
+  background-color: #5CB85C;
   color: #fff;
 }
 
@@ -68,7 +69,12 @@
 
 .btn-outline-danger button {
   border: 1px solid #d9534f !important;
-  color: ##d9534f !important;
+  color: #d9534f !important;
+}
+
+.btn-outline-danger button:hover {
+  background-color: #d9534f;
+  color: #fff;
 }
 
 /*-----outline button -------*/ 
@@ -86,6 +92,7 @@
   padding: 0 16px;
   text-align: center;
   text-transform: uppercase;
+  margin: 0 5px;
 }
 
 .btn-outline button:hover {
@@ -108,6 +115,7 @@
  padding: 0 16px;
  text-align: center;
  text-transform: uppercase;
+ margin: 0 5px;
 }
 
 .btn-flat button:hover {
@@ -129,6 +137,7 @@
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
   -webkit-transition: .2s ease-out;
   transition: .2s ease-out;
+  margin: 0 5px;
 }
 
 .btn-float button:hover {
@@ -153,6 +162,7 @@
   box-shadow: none;
   color: #9F9F9F;
   cursor: default;
+  margin: 0 5px;
 }
 
 

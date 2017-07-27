@@ -16,11 +16,10 @@
   text-overflow: ellipsis;
   vertical-align: middle;
   white-space: nowrap;
-  width: 60%;
+  width: 80%;
 }
 
 .avatar-single-one-button .button-wrapper {
-  display: inline-block;
-  vertical-align: middle;
+  float: right;
 }
 

@@ -33,6 +33,6 @@
 }
 
 .avatar-multi-two-button .button-wrapper {
-  display: inline-block;
-  vertical-align: middle;
+  float: right;
+  margin-top: 10px;
 }

@@ -8,13 +8,6 @@
     <script src="../../js/webix.js" type="text/javascript" charset="utf-8"></script>
     <title>List</title>
   </head>
-  <style type="text/css">
-    #listC{
-      float:left; 
-      width: 30%;
-      margin-left: 20px;
-    }
-  </style>
   <body>
     <div id="listC">Single line list with one Button</div>
 
@@ -23,7 +16,7 @@
         container:"listC",
         view:"list",
         css: "infratab-list line-one-button",
-        template:"<p class='list-item'>#title#</p><button class='btn'><i class='btn-icon'></i>#option# </button>",
+        template:"<p class='list-item'>#title#</p><div class='button-wrapper'><button class='btn'><i class='btn-icon'></i>#option# </button></div>",
         data: [
          {title: 'Add members in data list to make it more readbale for the user?', option: 'Add'},
          {title: 'Add data in current section, Add data in current section ?', option: 'Add'},

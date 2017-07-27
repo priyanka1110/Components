@@ -16,7 +16,7 @@
   text-overflow: ellipsis;
   vertical-align: middle;
   white-space: nowrap;
-  width: 60%;
+  width: 90%;
 }
 
 .avatar-multi-one-button .primary-text {
@@ -33,7 +33,7 @@
 }
 
 .avatar-multi-one-button .button-wrapper {
-  display: inline-block;
-  vertical-align: middle;
+  float: right;
+  margin-top: 10px;
 }
 

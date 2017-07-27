@@ -19,8 +19,8 @@
 }
 
 .mutliline-one-button .button-wrapper {
-  display: inline-block;
-  vertical-align: middle;
+  float: right;
+  margin-top: 5px;
 }
 
 .mutliline-one-button .btn-icon {
