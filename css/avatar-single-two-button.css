@@ -1,0 +1,26 @@
+.avatar-single-two-button .avatar {
+  background-image: url('../images/avatar.jpg');
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  height: 40px;
+  vertical-align: middle;
+  width: 40px;
+}
+
+.avatar-single-two-button .list-item {
+  display: inline-block;
+  margin: 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 70%;
+}
+
+.avatar-single-two-button .button-wrapper {
+   float: right;
+}
+
+

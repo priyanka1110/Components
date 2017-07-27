@@ -1,0 +1,39 @@
+.avatar-multi-one-button .avatar {
+  background-image: url('../images/avatar.jpg');
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  height: 40px;
+  vertical-align: middle;
+  width: 40px;
+}
+
+.avatar-multi-one-button .list-item {
+  display: inline-block;
+  margin: 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 90%;
+}
+
+.avatar-multi-one-button .primary-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.avatar-multi-one-button .secondary-text {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.avatar-multi-one-button .button-wrapper {
+  float: right;
+  margin-top: 10px;
+}
+

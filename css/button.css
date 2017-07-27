@@ -1,0 +1,171 @@
+/*-----standard button----*/
+.btn button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  border: 1px solid #26a69a;
+  border: 0;
+  text-align: center;
+  letter-spacing: .5px;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  cursor: pointer;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  margin: 0 5px;
+}
+
+.btn button:hover {
+  background-color: #2bbbad;
+  border-color: #2bbbad;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+/*------large button ------*/
+.btn-lg button {
+  font-size: 16px;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 20px;
+}
+
+/*----small button ------*/
+.btn-sm button {
+  font-size: 12px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
+}
+
+/*----btn primary-------*/
+.btn-primary button {
+  background-color: #5CB85C !important;
+  color: #fff !important;
+  border: 1px solid #5cb85c !important;
+}
+
+.btn-outline-primary button {
+  border: 1px solid #5cb85c !important;
+  color: #5cb85c !important;
+}
+
+.btn-outline-primary button:hover {
+  background-color: #5CB85C;
+  color: #fff;
+}
+
+/*-----btn danger-------*/
+.btn-danger button{
+  background-color: #D9534F !important;
+  color: #fff !important;
+  border: 1px solid #d9534f !important;
+}
+
+.btn-outline-danger button {
+  border: 1px solid #d9534f !important;
+  color: #d9534f !important;
+}
+
+.btn-outline-danger button:hover {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+/*-----outline button -------*/ 
+.btn-outline button {
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 2px;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  height: 36px;
+  line-height: 36px;
+  outline: none;
+  padding: 0 16px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 5px;
+}
+
+.btn-outline button:hover {
+  border-color: #000;
+  color: #000;
+}
+
+/*----flat button -----*/
+.btn-flat button {
+ background-color: transparent;
+ color: #333;
+ border: 0;
+ border-radius: 2px;
+ cursor: pointer;
+ font-size: 14px;
+ font-weight: 600;
+ height: 36px;
+ line-height: 36px;
+ outline: none;
+ padding: 0 16px;
+ text-align: center;
+ text-transform: uppercase;
+ margin: 0 5px;
+}
+
+.btn-flat button:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+/*-------float button------*/
+.btn-float button {
+  line-height: 56px;
+  height: 56px;
+  width: 56px;
+  border: 0;
+  border-radius: 50%;
+  background-color: #26a69a;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  margin: 0 5px;
+}
+
+.btn-float button:hover {
+  background-color: #2bbbad;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+/*------btn disabled-----*/
+.btn-disabled button{
+  border: 0;
+  border-radius: 2px;
+  font-weight: 600;
+  padding: 0 12px;
+  font-size: 14px;
+  height: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  pointer-events: none;
+  background-color: #DFDFDF;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #9F9F9F;
+  cursor: default;
+  margin: 0 5px;
+}
+
+
+
+
+

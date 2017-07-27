@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="../../../codebase/webix.css" type="text/css"   charset="utf-8">
-		<script src="../../../codebase/webix.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="../../../css/webix.css" type="text/css"   charset="utf-8">
+		<link rel="stylesheet" href="../../../css/component.css" type="text/css"   charset="utf-8">
+		<link rel="stylesheet" href="../../../css/button.css" type="text/css"   charset="utf-8">
+		<script src="../../../js/webix.js" type="text/javascript" charset="utf-8"></script>
 		<style>
 			#areaA{
 				margin: 30px;
@@ -13,21 +15,18 @@
 	<body>
 
 		<div id="areaA"></div>
-	
-
 		<script type="text/javascript" charset="utf-8">
 		var form1 = [
-			{ view:"textarea", label:"Note", labelAlign:"right"},
-			{ view:"textarea" , height:200, label:"Second note", labelPosition:"top" },
-			{ view:"button", value:"Confirm", width:200, align:"center" }
+			{ view:"textarea", label:"Note", css:'infratab-textarea'},
+			{ view:"textarea" ,label:"Second note" ,css:'infratab-textarea'},
+			{ view:"button", value:"Confirm", css:'infratab-btn btn'}
 		];
-
 	
 		webix.ui({
 			container:"areaA",
 			margin:30, cols:[
 				{ margin:30, rows:[
-					{ view:"form", scroll:false, width:300, elements: form1 }
+					{ view:"form", scroll:false, elements: form1 }
 				]}
 			]
 		});

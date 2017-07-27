@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../../css/webix.css">
+    <link rel="stylesheet" type="text/css" href="../../css/multiline-list-badge.css">
+    <link rel="stylesheet" type="text/css" href="../../css/component.css">
+    <script src="../../js/webix.js" type="text/javascript" charset="utf-8"></script>
+    <title>List</title>
+  </head>
+  <body>
+    <div id="listC">Multi line list with badge</div>
+
+    <script type="text/javascript" charset="utf-8">
+      webix.ui({
+        container:"listC",
+        view:"list",
+        css: "infratab-list mutli-line-badge",
+        template:"<p class='list-item'>#rank#. #title#</p> <div class='badge-box'><span class='badge'>#votes# </span> <span class='secondary-text'>#text#</span> </div>",
+        data: [
+          {rank: '1', title: 'The text kicks to two lines and the badge stays on one line.', votes: '232', text: 'Aug 20th'},
+          {rank: '2', title: 'The text kicks to two lines and the badge stays on one line.', votes: '23651', text: 'July 20th'},
+          {rank: '3', title: 'The text kicks to two lines and the badge stays on one line.', votes: '232', text: 'Sept16th'},
+          {rank: '4', title: 'The text kicks to two lines and the badge stays on one line.', votes: '53', text: 'Nov 15th'},
+          {rank: '5', title: 'The text kicks to two lines and the badge stays on one line.', votes: '73', text: 'Dec 10th'}
+        ]
+      });
+
+    </script>
+  </body>
+</html>

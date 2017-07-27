@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="../../../codebase/webix.css" type="text/css" media="screen" charset="utf-8">
-		<script src="../../../codebase/webix.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="../../../css/webix.css" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="../../../css/component.css" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="../../../css/button.css" type="text/css" media="screen" charset="utf-8">
+		<script src="../../../js/webix.js" type="text/javascript" charset="utf-8"></script>
 		
 		<title>Editable Combo Box ('combo')</title>
-        <style>
-			html, body{height:100%}
-        </style>
+		<style>
+		</style>
 	</head>
 <body>
-	<div id="data_container" style="margin:20px"></div>
+	<div id="data_container"></div>
 <script>
 
 	webix.ui({
@@ -18,17 +19,16 @@
 		view:"form", scroll:false,
 		
 		rows:[
-			{ view:"text", name:"country", label:"Country", value:"Belarus" },
+			{ view:"text", name:"country", label:"Country", value:"Belarus", css:'infratab-dropdown' },
 			{ 
-				view:"combo", width:300,
-				label: 'Fruit',  name:"fruit",
+				view:"combo", label: 'Fruit',  name:"fruit", css:'infratab-dropdown',
 				options:[ 
 					{ id:1, value:"Banana"   },
 					{ id:2, value:"Papaya"   }, 
 					{ id:3, value:"Apple" }
 				]
 			},
-			{ view:"button", type:"form", value:"Submit data", click:function(){
+			{ view:"button", type:"form", value:"Submit data", css:'infratab-btn btn', click:function(){
 				webix.message(JSON.stringify( this.getParentView().getValues()));
 			}}
 		]

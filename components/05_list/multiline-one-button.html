@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../../css/webix.css">
+    <link rel="stylesheet" type="text/css" href="../../css/multiline-one-button.css">
+    <link rel="stylesheet" type="text/css" href="../../css/component.css">
+    <link rel="stylesheet" type="text/css" href="../../css/button-direct.css">
+    <script src="../../js/webix.js" type="text/javascript" charset="utf-8"></script>
+    <title>List</title>
+  </head>
+  <body>
+    <div id="listC">Multi line list with one Button</div>
+
+    <script type="text/javascript" charset="utf-8">
+      webix.ui({
+        container:"listC",
+        view:"list",
+        css: "infratab-list mutliline-one-button",
+        template:"<div class='list-item'><p class='primary-text'>#primary#</p><p class='secondary-text'>#secondary#</p></div><div class='button-wrapper'><button class='btn'><i class='btn-icon'></i>#option# </button></div>",
+        data: [
+         {primary: 'Do you want to learn?', secondary: 'Add a dropdown list to any button. Make sure that the data-activates attribute matches the id in the ul tag.', option: 'Add'},
+         {primary: 'Do you want to create more?', secondary: 'Add a dropdown list to any button. Make sure that the data-activates attribute matches the id in the ul tag.', option: 'Addition'},
+         {primary: 'Create your member', secondary: 'Add a dropdown list to any button. Make sure that the data-activates attribute matches the id in the ul tag.', option: 'Addition'}
+        ]
+      });
+
+    </script>
+  </body>
+</html>

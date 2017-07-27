@@ -1,0 +1,25 @@
+.multiline-two-button .list-item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+}
+
+.multiline-two-button .primary-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.multiline-two-button .secondary-text {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.multiline-two-button .button-wrapper {
+  float: right;
+  margin-top: 5px;
+}
+
