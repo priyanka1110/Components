@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="../../../codebase/webix.css" type="text/css"   charset="utf-8">
-		<script src="../../../codebase/webix.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="../../../css/webix.css" type="text/css"   charset="utf-8">
+		<link rel="stylesheet" href="../../../css/component.css" type="text/css" charset="utf-8">
+		<link rel="stylesheet" href="../../../css/button.css" type="text/css" charset="utf-8">
+		<script src="../../../js/webix.js" type="text/javascript" charset="utf-8"></script>
 		<style>
 			#areaA{
 				margin: 30px;
@@ -17,54 +19,11 @@
 
 		<script type="text/javascript" charset="utf-8">
 		var form1 = [
-			{ view:"text", value:'dummy@email.com', label:"Email" },
-			{ view:"text", type:'password', value:'123pass', label:"Password"},
-			{ margin:5, cols:[
-				{ view:"button", value:"Login" , type:"form" },
-				{ view:"button", value:"Cancel" }
-			]}
-		];
-
-		var form2 = [
-			{ view:"text", value:'dummy@email.com', label:"Email", labelAlign:'right'},
-			{ view:"text", type:'password', value:'123pass', label:"Password", labelAlign:'right'},
-			{ margin:5, cols:[
-				{ view:"button", value:"Login" , type:"form" },
-				{ view:"button", value:"Cancel" }
-			]}
-		];
-
-		var form3 = [
-			{ view:"text", value:'dummy@email.com', label:"Email", inputAlign:"right"},
-			{ view:"text", type:'password', value:'123pass', label:"Password", inputAlign:"right"},
-			{ margin:5, cols:[
-				{ view:"button", value:"Login" , type:"form" },
-				{ view:"button", value:"Cancel" }
-			]}
-		];
-
-		var form4 = [
-			{ view:"text", value:'dummy@email.com', label:"Email", inputAlign:"right", labelAlign:"right"},
-			{ view:"text", type:'password', value:'123pass', label:"Password", inputAlign:"right", labelAlign:"right"},
-			{ margin:5, cols:[
-				{ view:"button", value:"Login" , type:"form" },
-				{ view:"button", value:"Cancel" }
-			]}
-		];
-
-		var form5 = [
-			{ view:"text", value:'dummy@email.com', label:"Label for Email with some very long text", height:40, labelWidth:155 },
-			{ margin:5, cols:[
-				{ view:"button", value:"Login" , type:"form" },
-				{ view:"button", value:"Cancel" }
-			]}
-		];
-
-		var form6 = [
-			{ view:"text", value:'dummy@email.com', label:"Label for Email with some very long text", labelPosition:"top" },
-			{ margin:5, cols:[
-				{ view:"button", value:"Login" , type:"form" },
-				{ view:"button", value:"Cancel" }
+			{ view:"text", value:'dummy@email.com', label:"Email", css:'infratab-input' },
+			{ view:"text", type:'password', value:'123pass', label:"Password",css:'infratab-input'},
+			{ cols:[
+				{ view:"button", value:"Login" , type:"form", css:"infratab-btn btn" },
+				{ view:"button", value:"Cancel",css:"infratab-btn btn btn-danger" }
 			]}
 		];
 
@@ -73,13 +32,6 @@
 			margin:30, cols:[
 				{ margin:30, rows:[
 					{ view:"form", scroll:false, width:300, elements: form1 },
-					{ view:"form", scroll:false, width:300, elements: form2 },
-					{ view:"form", scroll:false, width:300, elements: form5 }
-				]},
-				{ margin:30, rows:[
-					{ view:"form", scroll:false, width:300, elements: form3 },
-					{ view:"form", scroll:false, width:300, elements: form4 },
-					{ view:"form", scroll:false, width:300, elements: form6 }
 				]}
 			]
 		});
